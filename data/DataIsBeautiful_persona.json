@@ -1,0 +1,25 @@
+{
+  "location": "Boulder",
+  "archetype": "Defender of the Innocent",
+  "quote": "Data didn't deserve this.",
+  "motivations": {
+    "Justice": 90,
+    "Compassion": 80
+  },
+  "personality": {
+    "Empathetic": 70,
+    "Outraged": 60
+  },
+  "behaviors": [
+    "Speaking out against injustice",
+    "Defending vulnerable individuals"
+  ],
+  "goals": [
+    "Seeking truth and fairness",
+    "Protecting those who cannot defend themselves"
+  ],
+  "frustrations": [
+    "Injustice",
+    "Helplessness"
+  ]
+}

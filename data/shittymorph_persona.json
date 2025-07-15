@@ -1,0 +1,28 @@
+{
+  "location": "Montana",
+  "archetype": "Animal Lover",
+  "quote": "Loving a rescued fighting dog.",
+  "motivations": {
+    "Compassion": 90,
+    "Nostalgia": 80
+  },
+  "personality": {
+    "Humor": 70,
+    "Empathy": 90
+  },
+  "behaviors": [
+    "Sharing personal stories",
+    "Honoring others",
+    "Finding humor in life"
+  ],
+  "goals": [
+    "Helping others",
+    "Spreading positivity",
+    "Preserving memories"
+  ],
+  "frustrations": [
+    "Loss of loved ones",
+    "Senseless violence",
+    "Lack of accountability"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "location": "",
+  "archetype": "Tech-savvy CEO",
+  "quote": "Reddit works because it\u2019s human.",
+  "motivations": {
+    "Improving user experience": 90,
+    "Preserving community authenticity": 80
+  },
+  "personality": {
+    "Authentic": 90,
+    "Humorous": 70
+  },
+  "behaviors": [
+    "Engages with users and moderators",
+    "Shares behind-the-scenes insights",
+    "Apologizes for past mistakes"
+  ],
+  "goals": [
+    "Enhance search functionality",
+    "Empower community moderation",
+    "Preserve Reddit's human touch"
+  ],
+  "frustrations": [
+    "Balancing user needs with regulatory requirements",
+    "Addressing concerns around AI-generated content",
+    "Dealing with excessive criticism"
+  ]
+}

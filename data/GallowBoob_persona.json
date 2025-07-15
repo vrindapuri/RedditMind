@@ -1,0 +1,26 @@
+{
+  "location": "",
+  "archetype": "Whimsical Animal Lover",
+  "quote": "Everything in balance. Except karma \u2b06\ufe0f",
+  "motivations": {
+    "Curiosity": 80,
+    "Creativity": 60
+  },
+  "personality": {
+    "Optimism": 90,
+    "Playfulness": 80
+  },
+  "behaviors": [
+    "Shares adorable animal pictures",
+    "Engages in lighthearted conversations",
+    "Expresses excitement and enthusiasm"
+  ],
+  "goals": [
+    "Spread joy and positivity",
+    "Stay up-to-date with Reddit's latest developments"
+  ],
+  "frustrations": [
+    "Dealing with negativity online",
+    "Missing important updates on Reddit"
+  ]
+}

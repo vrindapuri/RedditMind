@@ -1,0 +1,26 @@
+{
+  "location": "Toronto",
+  "archetype": "The Whimsical Naturalist",
+  "quote": "You never know who is browsing Reddit sometimes.",
+  "motivations": {
+    "Curiosity": 80,
+    "Social Connection": 60
+  },
+  "personality": {
+    "Playful": 90,
+    "Open-minded": 80
+  },
+  "behaviors": [
+    "Shares personal experiences",
+    "Engages in lighthearted conversations",
+    "Shows enthusiasm for various topics"
+  ],
+  "goals": [
+    "To have fun and entertain others",
+    "To share knowledge and insights"
+  ],
+  "frustrations": [
+    "Dealing with misinformation",
+    "Encountering close-minded individuals"
+  ]
+}
