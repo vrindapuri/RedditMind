@@ -1,0 +1,75 @@
+# 🧠 RedditMind
+
+**Decode digital identities — one Redditor at a time.**
+
+RedditMind is a visual persona generator that uses Reddit activity and LLMs to create compelling, illustrated user personas. It scrapes user posts and comments, analyzes behavioral traits with Groq (LLaMA-3), and renders a stunning persona card — including their profile picture and psychological makeup.
+
+---
+
+## ✨ Features
+
+- 🔍 Scrape Reddit posts and comments
+- 🧬 Generate behavioral personas using LLMs
+- 🎨 Visual persona card with bar charts + profile image
+- ⚡ Streamlit interface for easy input
+- 🌐 Exportable as image and JSON
+
+
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.10+
+- [PRAW](https://praw.readthedocs.io/)
+- [Groq API](https://console.groq.com/)
+- Streamlit
+- PIL + Matplotlib
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/RedditMind.git
+cd RedditMind
+python -m venv venv
+venv\Scripts\activate    # or source venv/bin/activate on Mac/Linux
+pip install -r requirements.txt
+Create a .env file:
+
+env
+Copy
+Edit
+REDDIT_CLIENT_ID=your_id
+REDDIT_CLIENT_SECRET=your_secret
+REDDIT_USER_AGENT=redditmind-agent
+GROQ_API_KEY=your_groq_key
+🧪 Usage
+bash
+Copy
+Edit
+streamlit run app.py
+Then go to http://localhost:8501 and enter any Reddit username or profile link.
+
+📁 Folder Structure
+bash
+Copy
+Edit
+RedditMind/
+├── app.py
+├── main.py
+├── requirements.txt
+├── .env
+├── .gitignore
+├── README.md
+├── src/
+│   ├── reddit_scraper.py
+│   ├── persona_builder.py
+│   └── visual_persona_generator.py
+├── data/            # Output persona JSONs and images
+└── output/          # Bar charts etc. (auto-generated)
+🧑‍🎨 Creator
+Vrinda Puri
+AI Intern | Product Thinker | Open Source Contributor
+https://github.com/vrindapuri | https://www.linkedin.com/in/vrinda-puri-77583224a/
