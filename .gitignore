@@ -6,8 +6,8 @@ __pycache__/
 *.pyc
 
 # Ignore data and output
-data/
-output/
+# data/
+# output/
 
 # Ignore virtual environment
 venv/
