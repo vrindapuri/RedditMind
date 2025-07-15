@@ -51,6 +51,13 @@ if __name__ == "__main__":
     # Truncate text if needed
     combined_text = clean_text(data, max_chars=16000)
 
+    # Save the cleaned prompt text for transparency
+    text_path = f"data/{username}_raw_prompt.txt"
+    with open(text_path, "w", encoding="utf-8") as f:
+        f.write(combined_text)
+    print(f"[INFO] Prompt text saved to {text_path}")
+
+
     print("\n[INFO] Generating user persona using Groq...")
     try:
         persona_dict = extract_persona(combined_text, username)
